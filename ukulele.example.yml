@@ -6,3 +6,8 @@ config:
   game: ""               # Status message shown when your bot is online
   trackDurationLimit: 0  # Maximum limit of track duration in minutes. Set to 0 for unlimited
   announceTracks: false  # Announce the start of a track
+  # Optional yt-cipher server, helps to pass some anti-bot challenges.
+  # See https://github.com/kikkia/yt-cipher for details.
+  youtubeRemoteCipherUrl: null
+  youtubeRemoteCipherPassword: null
+  youtubeRemoteCipherUserAgent: "ukulele"
